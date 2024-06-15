@@ -12,6 +12,8 @@ Using the Adult Census data, I will build two boosted decision tree models (one 
 - Create a new experiment from the Azure ML Studio dashboard
 - Import and explore the Adult Census data before moving on to pre-processing
 
+![Importing Data](images/Data-1.png)
+
 ### Task 2- Data Cleaning
 
 - Clean the data
