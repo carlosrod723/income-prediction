@@ -31,9 +31,9 @@ a) Clean missing data
 
 ![Clean Missing Data](images/Clean-Missing-Data-3.png)
 
-b) Exlcuding unnecessary columns
+b) Excluding unnecessary columns
 
-![Excluding Columns](images/Excluding-Columns-4.png)
+![Excluding Columns](images/Exlcuding-Columns-4.png)
 
 c) Using the Edit Metadata module to change datatypes
 
