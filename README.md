@@ -93,6 +93,14 @@ c) Results of Normal Decision Tree
 
 ![Results 2](images/Results-15.png)
 
+- The model using SMOTE upsampled data has a higher accuracy (0.944) compared to the model using normal data (0.870).
+- The precision of the SMOTE model is higher (0.834) compared to the normal data model (0.744). This indicates that the SMOTE model is better at correctly identifying instances of the positive class (>50K).
+- The recall of the SMOTE model is significantly higher (0.956) compared to the normal data model (0.688). This shows that the SMOTE model is much better at capturing the true positive instances.
+- The F1 score, which is the harmonic mean of precision and recall, is higher for the SMOTE model (0.891) compared to the normal data model (0.715). This indicates a better balance between precision and recall in the SMOTE model.
+- The AUC (Area Under the Curve) is higher for the SMOTE model (0.986) compared to the normal data model (0.925). A higher AUC indicates a better overall ability of the model to distinguish between the positive and negative classes.
+- The SMOTE model has fewer False Negatives (102) and False Positives (441) compared to the normal data model (725 FN and 549 FP). This means the SMOTE model makes fewer errors in both false negative and false positive predictions.
+- The model trained using SMOTE upsampled data performs significantly better across all metrics compared to the model trained on the normal data. The use of SMOTE has effectively addressed the class imbalance, resulting in higher accuracy, precision, recall, F1 score, and AUC. The reduction in both false negatives and false positives indicates that the SMOTE model is more reliable and robust for predicting adult income.
+
 ### Task 6- Publish the Trained Models as Web Service for Inference
 
 - Create a web service from Azure Machine Learning prediction model
