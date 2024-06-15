@@ -7,6 +7,12 @@ Using the Adult Census data, I will build two boosted decision tree models (one 
 - Create scoring and predictive experiments
 - Deploy the trained model as an Azure web service
 
+## Model Selection- Boosted Decision Tree
+
+A Boosted Decision Tree is an ensemble learning technique that combines the predictions of multiple decision trees to produce a more accurate and robust model. The boosting process involves training several decision trees sequentially, where each tree is trained to correct the errors of the previous ones
+
+In the context of predicting adult income, using a boosted decision tree model is particularly advantageous because it can efficiently handle the complexities and variabilities inherent in the data. The socioeconomic factors influencing income are multifaceted and often interact in non-linear ways. Boosted decision trees are capable of capturing these intricate patterns, leading to more accurate and reliable predictions. Moreover, the ability to interpret feature importance allows for better understanding and communication of the key drivers of income levels, supporting data-driven decision-making.
+
 ### Task I- Introduction and Overview
 
 - Create a new experiment from the Azure ML Studio dashboard
@@ -106,6 +112,12 @@ c) Results of Normal Decision Tree
 - Create a web service from Azure Machine Learning prediction model
 - Create a scoring / prediction experiment
 - Publish the trained model as a web service
+
+After successfully training and evaluating the machine learning model, the next step is to set up a scoring or prediction experiment. This involves taking the trained model and integrating it into a pipeline that can process new data and generate predictions.
+
+Once the scoring experiment is validated and performing as expected, I published the trained model as a web service. This allows external applications to interact with the model via API calls. This is the part where I deployed the model in Azure Machine Learning Studio. Here, Azure provides a REST API endpoint along with necessary API keys or tokens for authentication. 
+
+To ensure the robustness and accuracy of the model, the final step involved testing the model on new, unseen data. This validation step was crucial in confirming that the model performs well on real-world data and can generalize effectively beyond the training dataset
 
 a) Deleted Normal Decision Tree Before Creating Web Service
 
